@@ -47,14 +47,16 @@ body {
   background-color: #252e4f;
 }
 
-.add-btns {
+.add-btns,
+.minus-btns {
   display: flex;
   gap: 20px;
   align-items: center;
   margin-top: 20px;
 }
 
-.plus-btn {
+.plus-btn,
+.minus-btn {
   padding: 10px 15px;
   border-radius: 10px;
   font-size: 24px;
@@ -67,12 +69,25 @@ body {
   background-color: #355cff;
 }
 
+.minus-one {
+  background-color: #ae0606;
+}
+
 .add-two {
   background-color: #14b67e;
 }
 
+.minus-two {
+  background-color: #fffc00;
+  color: red;
+}
+
 .add-three {
   background-color: #f79e1b;
+}
+
+.minus-three {
+  background-color: #410093;
 }
 
 .reset-btn {
