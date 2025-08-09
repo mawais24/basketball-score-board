@@ -21,6 +21,21 @@ function homePlusThree() {
   counterElementHome.innerText = counterHome;
 }
 
+function homeMinusOne() {
+  counterHome -= 1;
+  counterElementHome.innerText = counterHome;
+}
+
+function homeMinusTwo() {
+  counterHome -= 2;
+  counterElementHome.innerText = counterHome;
+}
+
+function homeMinusThree() {
+  counterHome -= 3;
+  counterElementHome.innerText = counterHome;
+}
+
 function guestPlusOne() {
   counterGuest += 1;
   counterElementGuest.innerText = counterGuest;
@@ -33,6 +48,21 @@ function guestPlusTwo() {
 
 function guestPlusThree() {
   counterGuest += 3;
+  counterElementGuest.innerText = counterGuest;
+}
+
+function guestMinusOne() {
+  counterGuest -= 1;
+  counterElementGuest.innerText = counterGuest;
+}
+
+function guestMinusTwo() {
+  counterGuest -= 2;
+  counterElementGuest.innerText = counterGuest;
+}
+
+function guestMinusThree() {
+  counterGuest -= 3;
   counterElementGuest.innerText = counterGuest;
 }
 
