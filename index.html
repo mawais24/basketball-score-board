@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Card!</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-wrap">
+        <div class="counter-box">
+          <h1>Home</h1>
+          <div class="counter left-counter">
+            <h2 id="home-counter-el">10</h2>
+          </div>
+          <div class="add-btns">
+            <buttons onclick="homePlusOne()" class="plus-btn add-one"
+              >+1</buttons
+            >
+            <buttons onclick="homePlusTwo()" class="plus-btn add-two"
+              >+2</buttons
+            >
+            <buttons onclick="homePlusThree()" class="plus-btn add-three"
+              >+3</buttons
+            >
+          </div>
+        </div>
+        <div class="counter-box">
+          <h1>Guest</h1>
+          <div class="counter right-counter">
+            <h2 id="guest-counter-el">10</h2>
+          </div>
+          <div class="add-btns">
+            <buttons onclick="guestPlusOne()" class="plus-btn add-one"
+              >+1</buttons
+            >
+            <buttons onclick="guestPlusTwo()" class="plus-btn add-two"
+              >+2</buttons
+            >
+            <buttons onclick="guestPlusThree()" class="plus-btn add-three"
+              >+3</buttons
+            >
+          </div>
+        </div>
+      </div>
+      <div class="reset-div">
+        <button class="plus-btn reset-btn" onclick="reset()">
+          Reset Score
+        </button>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
