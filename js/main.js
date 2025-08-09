@@ -37,6 +37,8 @@ function guestPlusThree() {
 }
 
 function reset() {
+  counterGuest = 0;
+  counterHome = 0;
   counterElementHome.innerText = 0;
   counterElementGuest.innerText = 0;
 }
